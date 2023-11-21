@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Distribuição binomial</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Distribução Binomial</h1>
+  </header>
+
+  <section>
+    <h2>Função de massa de probabilidade e  função de probabilidade acumulada</h2>
+
+    <input id="repetições" type="number" placeholder="n">
+    <!--<input id="sucessos" type="number" placeholder="k">-->
+    <input id="probabilidade" type="number" placeholder="p" min="0" max="1" step="0.1">
+    <button id="botao">Criar Grafico</button>
+
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+  </section>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
+
+<!--
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+<body>
+  <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>-->
